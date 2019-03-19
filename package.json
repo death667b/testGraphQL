@@ -1,0 +1,24 @@
+{
+  "name": "graphqltest",
+  "version": "1.0.0",
+  "description": "Just testing out some GraphQL stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/death667b/testGraphQL.git"
+  },
+  "keywords": [
+    "JS",
+    "Node",
+    "GraphQL"
+  ],
+  "author": "Ian Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/death667b/testGraphQL/issues"
+  },
+  "homepage": "https://github.com/death667b/testGraphQL#readme"
+}
