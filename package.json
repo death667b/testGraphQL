@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/death667b/testGraphQL/issues"
   },
-  "homepage": "https://github.com/death667b/testGraphQL#readme"
+  "homepage": "https://github.com/death667b/testGraphQL#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "graphql": "^14.1.1"
+  }
 }
