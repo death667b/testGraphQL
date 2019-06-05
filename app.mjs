@@ -1,11 +1,11 @@
 import express from 'express';
 import schema, { graphql } from './schema';
 
-const app = expesss();
+const app = express();
 const port =  3000;
 
 app.get("/", (req, res) => {
-  let query = `{ hello, person { name }, people { name, description }}`;
+  let query = `{ hello, person { name }, people { name, id }}`;
   graphql(schema, query).then(result => {
     res.json(result);
   });
