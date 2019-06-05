@@ -1,6 +1,6 @@
 import {
   graphql,
-  GraphQLScheme,
+  GraphQLSchema,
   GraphQLObjectType,
   GraphQLString,
   GraphQLList
@@ -16,7 +16,7 @@ let humanType = new GraphQLObjectType({
   })
 });
 
-let schema = new GraphQLScheme({
+let schema = new GraphQLSchema({
   query: new GraphQLObjectType({
     name: "RootQueryType",
     fields: {
