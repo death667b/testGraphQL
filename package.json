@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/death667b/testGraphQL#readme",
   "dependencies": {
-    "express": "^4.16.4",
-    "graphql": "^14.1.1"
+    "express": "^4.17.1",
+    "graphql": "^14.3.1"
   }
 }
