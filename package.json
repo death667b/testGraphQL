@@ -4,7 +4,8 @@
   "description": "Just testing out some GraphQL stuff",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --experimental-modules app.mjs"
   },
   "repository": {
     "type": "git",
